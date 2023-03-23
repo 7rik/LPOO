@@ -1,6 +1,6 @@
 package aulaEncapsulamento;
 
-public class exercicioMemorando {
+public class Memorando {
     private String assunto, destinatario, signatario;
 
     public String getAssunto() {
@@ -15,15 +15,15 @@ public class exercicioMemorando {
         return signatario;
     }
 
-    public void setAssunto(String assunto) {
+    public void setAssunto(String novoAssunto) {
         this.assunto = assunto;
     }
 
-    public void setDestinatario(String destinatario) {
+    public void setDestinatario(String novoDestinatario) {
         this.destinatario = destinatario;
     }
 
-    public void setSignatario(String signatario) {
+    public void setSignatario(String novoSignatario) {
         this.signatario = signatario;
     }
 }
