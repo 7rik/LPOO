@@ -13,5 +13,6 @@ public class Testes {
         System.out.println("Assunto: " + meuMemorando.getAssunto());
         System.out.println("Destinatário: " + meuMemorando.getDestinatario());
         System.out.println("Signatário: " + meuMemorando.getSignatario());
+
     }
 }

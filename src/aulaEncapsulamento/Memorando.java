@@ -3,6 +3,16 @@ package aulaEncapsulamento;
 public class Memorando {
     private String assunto, destinatario, signatario;
 
+    public Memorando(){
+
+    }
+
+    public Memorando(String assunto, String destinatario, String signatario){
+        this.assunto = assunto;
+        this.destinatario = destinatario;
+        this.signatario = signatario;
+    }
+
     public String getAssunto() {
         return assunto;
     }
